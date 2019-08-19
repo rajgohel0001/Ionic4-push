@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "41886084763",
+    "firebase_url": "https://ionic-4-fcm-13b2e.firebaseio.com",
+    "project_id": "ionic-4-fcm-13b2e",
+    "storage_bucket": "ionic-4-fcm-13b2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41886084763:android:803d6e1becf886f9",
+        "android_client_info": {
+          "package_name": "com.raoinfotech.ionic4fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41886084763-7f5v4i36i4jov9g9n7p62q8tu0hc5thp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRkwp1vTq3PPXfwoAlTB6gho4-IEMuXXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41886084763-7f5v4i36i4jov9g9n7p62q8tu0hc5thp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
