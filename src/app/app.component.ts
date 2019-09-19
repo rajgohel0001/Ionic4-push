@@ -29,10 +29,16 @@ export class AppComponent {
 
       this.fcm.subscribeToTopic('people');
 
+      /**
+       * receive FCM token
+       */
       this.fcm.getToken().then(token => {
         console.log(token);
       });
 
+      /**
+       * receive push notification from cloud messging FCM
+       */
       this.fcm.onNotification().subscribe(data => {
         console.log(data);
         if (data.wasTapped) {
@@ -44,6 +50,9 @@ export class AppComponent {
         }
       });
 
+      /**
+       * refresh FCM token
+       */
       this.fcm.onTokenRefresh().subscribe(token => {
         console.log(token);
       });
